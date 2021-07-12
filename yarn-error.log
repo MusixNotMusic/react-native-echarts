@@ -1,0 +1,66 @@
+Arguments: 
+  D:\Node\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js publish
+
+PATH: 
+  C:\Users\admin\bin;D:\Git\mingw64\bin;D:\Git\usr\local\bin;D:\Git\usr\bin;D:\Git\usr\bin;D:\Git\cmd;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\sqlite;C:\Program Files (x86)\Java\jdk1.7.0_80\bin;D:\Git\cmd;D:\nvm;D:\Node;D:\Microsoft VS Code\bin;C:\Users\admin\AppData\Roaming\npm;C:\Program Files\TortoiseSVN\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0;%SYSTEMROOT%\System32\OpenSSH;C:\Users\admin\AppData\Local\Programs\Python\Python36\Scripts;C:\Users\admin\AppData\Local\Programs\Python\Python36;C:\Users\admin\.windows-build-tools\python27;C:\Users\admin\AppData\Roaming\npm;D:\nvm;D:\Node;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;D:\Git\usr\bin\vendor_perl;D:\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  10.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/-/user/org.couchdb.user:musixnotmusic: [conflict] User musixnotmusic already exists
+      at Request.params.callback [as _callback] (C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "native-echarts-yw",
+    "version": "0.1.0",
+    "description": "echarts for react-native",
+    "main": "src/index.js",
+    "directories": {
+      "example": "example"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/musix/react-native-echarts.git"
+    },
+    "keywords": [
+      "react-native",
+      "echarts",
+      "chart",
+      "charts"
+    ],
+    "author": "musix",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/musix/react-native-echarts/issues"
+    },
+    "homepage": "https://github.com/musix/react-native-echarts#readme",
+    "dependencies": {
+      "echarts": "3.2.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
