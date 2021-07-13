@@ -4,7 +4,7 @@ import toString from '../../util/toString';
 export default function renderChart(props) {
   const height = `${props.height || 400}px`;
   const width = props.width ? `${props.width}px` : 'auto';
-  const customData = props.customData
+  const customData = props.customData || {}
   return `
     document.getElementById('main').style.height = "${height}";
     document.getElementById('main').style.width = "${width}";
